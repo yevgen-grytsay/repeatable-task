@@ -1,5 +1,8 @@
 Repeatable action
 =================
+
+[![Build Status](https://travis-ci.org/yevgen-grytsay/repeatable-task.svg?branch=master)](https://travis-ci.org/yevgen-grytsay/repeatable-task)
+
 Execute a task limited times or until its result becomes satisfying
 
 Installation
