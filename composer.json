@@ -1,0 +1,20 @@
+{
+    "name": "yevgen-grytsay/repeatable-action",
+    "description": "Execute a task limited times or until its result becomes satisfying",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yevgen Grytsay",
+            "email": "yevgen_grytsay@mail.ru"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YevgenGrytsay\\RepeatableAction\\": "src"
+        }
+    }
+}

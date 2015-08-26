@@ -1,0 +1,17 @@
+language: php
+php:
+  - 5.5
+  - 5.6
+  - 7.0
+  - hhvm
+  - nightly
+# optionally set up exclutions and allowed failures in the matrix
+matrix:
+  allow_failures:
+    - php: 5.4
+    - php: 7.0
+    - php: hhvm
+script: vendor/bin/phpunit --configuration ./phpunit.xml --coverage-text --verbose
+install:
+  - travis_retry composer self-update && composer --version
+  - travis_retry composer install --prefer-dist --no-interaction
