@@ -1,5 +1,5 @@
 {
-    "name": "yevgen-grytsay/repeatable-action",
+    "name": "yevgen-grytsay/repeatable-task",
     "description": "Execute a task limited times or until its result becomes satisfying",
     "type": "library",
     "license": "MIT",
