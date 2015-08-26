@@ -1,5 +1,5 @@
 <?php
-use YevgenGrytsay\RepeatableAction\RepeatCondition;
+use YevgenGrytsay\RepeatableTask\RepeatCondition;
 
 /**
  * Created by PhpStorm.

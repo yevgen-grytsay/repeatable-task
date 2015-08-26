@@ -6,7 +6,7 @@
  * Time: 9:56
  */
 
-namespace YevgenGrytsay\RepeatableAction;
+namespace YevgenGrytsay\RepeatableTask;
 
 
 class Execution
@@ -29,8 +29,8 @@ class Execution
     /**
      * Execution constructor.
      *
-     * @param \YevgenGrytsay\RepeatableAction\TaskInterface $task
-     * @param \YevgenGrytsay\RepeatableAction\RepeatCondition $repeatCondition
+     * @param \YevgenGrytsay\RepeatableTask\TaskInterface $task
+     * @param \YevgenGrytsay\RepeatableTask\RepeatCondition $repeatCondition
      * @param int $repeatLimit
      */
     public function __construct(TaskInterface $task, RepeatCondition $repeatCondition, $repeatLimit)

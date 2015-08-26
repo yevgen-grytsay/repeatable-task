@@ -1,5 +1,5 @@
 <?php
-use YevgenGrytsay\RepeatableAction\TaskInterface;
+use YevgenGrytsay\RepeatableTask\TaskInterface;
 
 /**
  * Created by PhpStorm.

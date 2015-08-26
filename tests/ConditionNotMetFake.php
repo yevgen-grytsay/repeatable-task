@@ -6,7 +6,7 @@
  * Date: 26.08.15
  * Time: 10:32
  */
-class ConditionNotMetFake extends \YevgenGrytsay\RepeatableAction\RepeatCondition
+class ConditionNotMetFake extends \YevgenGrytsay\RepeatableTask\RepeatCondition
 {
     /**
      * @param $repeatCount

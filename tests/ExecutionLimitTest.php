@@ -1,6 +1,6 @@
 <?php
-use YevgenGrytsay\RepeatableAction\Execution;
-use YevgenGrytsay\RepeatableAction\TaskInterface;
+use YevgenGrytsay\RepeatableTask\Execution;
+use YevgenGrytsay\RepeatableTask\TaskInterface;
 
 /**
  * Created by PhpStorm.

@@ -6,7 +6,7 @@
  * Time: 9:57
  */
 
-namespace YevgenGrytsay\RepeatableAction;
+namespace YevgenGrytsay\RepeatableTask;
 
 
 abstract class RepeatCondition

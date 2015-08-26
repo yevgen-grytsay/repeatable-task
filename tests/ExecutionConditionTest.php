@@ -1,7 +1,7 @@
 <?php
-use YevgenGrytsay\RepeatableAction\Execution;
-use YevgenGrytsay\RepeatableAction\RepeatCondition;
-use YevgenGrytsay\RepeatableAction\TaskInterface;
+use YevgenGrytsay\RepeatableTask\Execution;
+use YevgenGrytsay\RepeatableTask\RepeatCondition;
+use YevgenGrytsay\RepeatableTask\TaskInterface;
 
 /**
  * Created by PhpStorm.
@@ -77,7 +77,7 @@ class ExecutionConditionTest extends PHPUnit_Framework_TestCase
     /**
      * @param $result
      *
-     * @return \YevgenGrytsay\RepeatableAction\TaskInterface
+     * @return \YevgenGrytsay\RepeatableTask\TaskInterface
      */
     protected function _createTaskReturningResult($result)
     {
